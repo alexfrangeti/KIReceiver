@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87C2FC3E1FA8C9770065BA1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC3D1FA8C9770065BA1B /* AppDelegate.m */; };
+		87C2FC411FA8C9770065BA1B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC401FA8C9770065BA1B /* FirstViewController.m */; };
+		87C2FC441FA8C9770065BA1B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC431FA8C9770065BA1B /* SecondViewController.m */; };
+		87C2FC471FA8C9770065BA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C2FC451FA8C9770065BA1B /* Main.storyboard */; };
+		87C2FC491FA8C9770065BA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C2FC481FA8C9770065BA1B /* Assets.xcassets */; };
+		87C2FC4C1FA8C9770065BA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C2FC4A1FA8C9770065BA1B /* LaunchScreen.storyboard */; };
+		87C2FC4F1FA8C9770065BA1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC4E1FA8C9770065BA1B /* main.m */; };
+		87C2FC591FA8C9770065BA1B /* KIReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC581FA8C9770065BA1B /* KIReceiverTests.m */; };
+		87C2FC641FA8C9770065BA1B /* KIReceiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC631FA8C9770065BA1B /* KIReceiverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87C2FC551FA8C9770065BA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C2FC311FA8C9770065BA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C2FC381FA8C9770065BA1B;
+			remoteInfo = KIReceiver;
+		};
+		87C2FC601FA8C9770065BA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C2FC311FA8C9770065BA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C2FC381FA8C9770065BA1B;
+			remoteInfo = KIReceiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87C2FC391FA8C9770065BA1B /* KIReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C2FC3C1FA8C9770065BA1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87C2FC3D1FA8C9770065BA1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87C2FC3F1FA8C9770065BA1B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		87C2FC401FA8C9770065BA1B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		87C2FC421FA8C9770065BA1B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		87C2FC431FA8C9770065BA1B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		87C2FC461FA8C9770065BA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87C2FC481FA8C9770065BA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C2FC4B1FA8C9770065BA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C2FC4D1FA8C9770065BA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C2FC4E1FA8C9770065BA1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C2FC541FA8C9770065BA1B /* KIReceiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIReceiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C2FC581FA8C9770065BA1B /* KIReceiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIReceiverTests.m; sourceTree = "<group>"; };
+		87C2FC5A1FA8C9770065BA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C2FC5F1FA8C9770065BA1B /* KIReceiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIReceiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C2FC631FA8C9770065BA1B /* KIReceiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIReceiverUITests.m; sourceTree = "<group>"; };
+		87C2FC651FA8C9770065BA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C2FC361FA8C9770065BA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C2FC511FA8C9770065BA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C2FC5C1FA8C9770065BA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C2FC301FA8C9770065BA1B = {
+			isa = PBXGroup;
+			children = (
+				87C2FC3B1FA8C9770065BA1B /* KIReceiver */,
+				87C2FC571FA8C9770065BA1B /* KIReceiverTests */,
+				87C2FC621FA8C9770065BA1B /* KIReceiverUITests */,
+				87C2FC3A1FA8C9770065BA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C2FC3A1FA8C9770065BA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C2FC391FA8C9770065BA1B /* KIReceiver.app */,
+				87C2FC541FA8C9770065BA1B /* KIReceiverTests.xctest */,
+				87C2FC5F1FA8C9770065BA1B /* KIReceiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C2FC3B1FA8C9770065BA1B /* KIReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				87C2FC3C1FA8C9770065BA1B /* AppDelegate.h */,
+				87C2FC3D1FA8C9770065BA1B /* AppDelegate.m */,
+				87C2FC3F1FA8C9770065BA1B /* FirstViewController.h */,
+				87C2FC401FA8C9770065BA1B /* FirstViewController.m */,
+				87C2FC421FA8C9770065BA1B /* SecondViewController.h */,
+				87C2FC431FA8C9770065BA1B /* SecondViewController.m */,
+				87C2FC451FA8C9770065BA1B /* Main.storyboard */,
+				87C2FC481FA8C9770065BA1B /* Assets.xcassets */,
+				87C2FC4A1FA8C9770065BA1B /* LaunchScreen.storyboard */,
+				87C2FC4D1FA8C9770065BA1B /* Info.plist */,
+				87C2FC4E1FA8C9770065BA1B /* main.m */,
+			);
+			path = KIReceiver;
+			sourceTree = "<group>";
+		};
+		87C2FC571FA8C9770065BA1B /* KIReceiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				87C2FC581FA8C9770065BA1B /* KIReceiverTests.m */,
+				87C2FC5A1FA8C9770065BA1B /* Info.plist */,
+			);
+			path = KIReceiverTests;
+			sourceTree = "<group>";
+		};
+		87C2FC621FA8C9770065BA1B /* KIReceiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87C2FC631FA8C9770065BA1B /* KIReceiverUITests.m */,
+				87C2FC651FA8C9770065BA1B /* Info.plist */,
+			);
+			path = KIReceiverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C2FC381FA8C9770065BA1B /* KIReceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C2FC681FA8C9770065BA1B /* Build configuration list for PBXNativeTarget "KIReceiver" */;
+			buildPhases = (
+				87C2FC351FA8C9770065BA1B /* Sources */,
+				87C2FC361FA8C9770065BA1B /* Frameworks */,
+				87C2FC371FA8C9770065BA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIReceiver;
+			productName = KIReceiver;
+			productReference = 87C2FC391FA8C9770065BA1B /* KIReceiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87C2FC531FA8C9770065BA1B /* KIReceiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C2FC6B1FA8C9770065BA1B /* Build configuration list for PBXNativeTarget "KIReceiverTests" */;
+			buildPhases = (
+				87C2FC501FA8C9770065BA1B /* Sources */,
+				87C2FC511FA8C9770065BA1B /* Frameworks */,
+				87C2FC521FA8C9770065BA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C2FC561FA8C9770065BA1B /* PBXTargetDependency */,
+			);
+			name = KIReceiverTests;
+			productName = KIReceiverTests;
+			productReference = 87C2FC541FA8C9770065BA1B /* KIReceiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87C2FC5E1FA8C9770065BA1B /* KIReceiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C2FC6E1FA8C9770065BA1B /* Build configuration list for PBXNativeTarget "KIReceiverUITests" */;
+			buildPhases = (
+				87C2FC5B1FA8C9770065BA1B /* Sources */,
+				87C2FC5C1FA8C9770065BA1B /* Frameworks */,
+				87C2FC5D1FA8C9770065BA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C2FC611FA8C9770065BA1B /* PBXTargetDependency */,
+			);
+			name = KIReceiverUITests;
+			productName = KIReceiverUITests;
+			productReference = 87C2FC5F1FA8C9770065BA1B /* KIReceiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C2FC311FA8C9770065BA1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alexandru Frangeti";
+				TargetAttributes = {
+					87C2FC381FA8C9770065BA1B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					87C2FC531FA8C9770065BA1B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87C2FC381FA8C9770065BA1B;
+					};
+					87C2FC5E1FA8C9770065BA1B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87C2FC381FA8C9770065BA1B;
+					};
+				};
+			};
+			buildConfigurationList = 87C2FC341FA8C9770065BA1B /* Build configuration list for PBXProject "KIReceiver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C2FC301FA8C9770065BA1B;
+			productRefGroup = 87C2FC3A1FA8C9770065BA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C2FC381FA8C9770065BA1B /* KIReceiver */,
+				87C2FC531FA8C9770065BA1B /* KIReceiverTests */,
+				87C2FC5E1FA8C9770065BA1B /* KIReceiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C2FC371FA8C9770065BA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C2FC4C1FA8C9770065BA1B /* LaunchScreen.storyboard in Resources */,
+				87C2FC491FA8C9770065BA1B /* Assets.xcassets in Resources */,
+				87C2FC471FA8C9770065BA1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C2FC521FA8C9770065BA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C2FC5D1FA8C9770065BA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C2FC351FA8C9770065BA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C2FC441FA8C9770065BA1B /* SecondViewController.m in Sources */,
+				87C2FC3E1FA8C9770065BA1B /* AppDelegate.m in Sources */,
+				87C2FC4F1FA8C9770065BA1B /* main.m in Sources */,
+				87C2FC411FA8C9770065BA1B /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C2FC501FA8C9770065BA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C2FC591FA8C9770065BA1B /* KIReceiverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C2FC5B1FA8C9770065BA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C2FC641FA8C9770065BA1B /* KIReceiverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87C2FC561FA8C9770065BA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C2FC381FA8C9770065BA1B /* KIReceiver */;
+			targetProxy = 87C2FC551FA8C9770065BA1B /* PBXContainerItemProxy */;
+		};
+		87C2FC611FA8C9770065BA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C2FC381FA8C9770065BA1B /* KIReceiver */;
+			targetProxy = 87C2FC601FA8C9770065BA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87C2FC451FA8C9770065BA1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C2FC461FA8C9770065BA1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87C2FC4A1FA8C9770065BA1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C2FC4B1FA8C9770065BA1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C2FC661FA8C9770065BA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87C2FC671FA8C9770065BA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C2FC691FA8C9770065BA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVJ878L63J;
+				INFOPLIST_FILE = KIReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C2FC6A1FA8C9770065BA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVJ878L63J;
+				INFOPLIST_FILE = KIReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87C2FC6C1FA8C9770065BA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVJ878L63J;
+				INFOPLIST_FILE = KIReceiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIReceiver.app/KIReceiver";
+			};
+			name = Debug;
+		};
+		87C2FC6D1FA8C9770065BA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVJ878L63J;
+				INFOPLIST_FILE = KIReceiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIReceiver.app/KIReceiver";
+			};
+			name = Release;
+		};
+		87C2FC6F1FA8C9770065BA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVJ878L63J;
+				INFOPLIST_FILE = KIReceiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KIReceiver;
+			};
+			name = Debug;
+		};
+		87C2FC701FA8C9770065BA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVJ878L63J;
+				INFOPLIST_FILE = KIReceiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KIReceiver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C2FC341FA8C9770065BA1B /* Build configuration list for PBXProject "KIReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C2FC661FA8C9770065BA1B /* Debug */,
+				87C2FC671FA8C9770065BA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C2FC681FA8C9770065BA1B /* Build configuration list for PBXNativeTarget "KIReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C2FC691FA8C9770065BA1B /* Debug */,
+				87C2FC6A1FA8C9770065BA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C2FC6B1FA8C9770065BA1B /* Build configuration list for PBXNativeTarget "KIReceiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C2FC6C1FA8C9770065BA1B /* Debug */,
+				87C2FC6D1FA8C9770065BA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C2FC6E1FA8C9770065BA1B /* Build configuration list for PBXNativeTarget "KIReceiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C2FC6F1FA8C9770065BA1B /* Debug */,
+				87C2FC701FA8C9770065BA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C2FC311FA8C9770065BA1B /* Project object */;
+}
