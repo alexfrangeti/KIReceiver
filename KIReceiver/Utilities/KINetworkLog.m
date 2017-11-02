@@ -71,7 +71,12 @@
     NSString *responseLog = @"< ";
     responseLog = [responseLog stringByAppendingString:urlString];
     responseLog = [responseLog stringByAppendingString:@"\n"];
-    responseLog = [responseLog stringByAppendingString:[NSString stringWithFormat:@"< HTTP/1.1 %@ %@?%@\n", statusCode, path, query]];
+    if (query) {
+        responseLog = [responseLog stringByAppendingString:[NSString stringWithFormat:@"< HTTP/1.1 %@ %@?%@\n", statusCode, path, query]];
+    } else {
+        responseLog = [responseLog stringByAppendingString:[NSString stringWithFormat:@"< HTTP/1.1 %@ %@\n", statusCode, path]];
+    }
+    
     responseLog = [responseLog stringByAppendingString:[NSString stringWithFormat:@"< Server: %@\n", host]];
     
     NSDictionary* headers = [(NSHTTPURLResponse *)response allHeaderFields];
