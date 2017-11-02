@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8765F75D1FAA06A500D4D908 /* KISettingsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8765F75C1FAA06A500D4D908 /* KISettingsDataSource.m */; };
+		8765F7611FAA176200D4D908 /* KILockAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8765F7601FAA176200D4D908 /* KILockAnimationView.m */; };
+		8765F7641FAA17C600D4D908 /* KILockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8765F7631FAA17C600D4D908 /* KILockView.m */; };
+		8765F7671FAA17E100D4D908 /* KIFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8765F7661FAA17E100D4D908 /* KIFrameView.m */; };
+		8765F76A1FAA385300D4D908 /* KIRegionMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8765F7691FAA385300D4D908 /* KIRegionMonitorManager.m */; };
+		8765F76D1FAA3D7A00D4D908 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8765F76C1FAA3D7400D4D908 /* CoreLocation.framework */; };
+		8765F76F1FAA3D8600D4D908 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8765F76E1FAA3D8100D4D908 /* CoreBluetooth.framework */; };
 		87C2FC3E1FA8C9770065BA1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC3D1FA8C9770065BA1B /* AppDelegate.m */; };
-		87C2FC411FA8C9770065BA1B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC401FA8C9770065BA1B /* FirstViewController.m */; };
-		87C2FC441FA8C9770065BA1B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC431FA8C9770065BA1B /* SecondViewController.m */; };
+		87C2FC411FA8C9770065BA1B /* KIReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC401FA8C9770065BA1B /* KIReceiverViewController.m */; };
+		87C2FC441FA8C9770065BA1B /* KISettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC431FA8C9770065BA1B /* KISettingsViewController.m */; };
 		87C2FC471FA8C9770065BA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C2FC451FA8C9770065BA1B /* Main.storyboard */; };
 		87C2FC491FA8C9770065BA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C2FC481FA8C9770065BA1B /* Assets.xcassets */; };
 		87C2FC4C1FA8C9770065BA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C2FC4A1FA8C9770065BA1B /* LaunchScreen.storyboard */; };
 		87C2FC4F1FA8C9770065BA1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC4E1FA8C9770065BA1B /* main.m */; };
 		87C2FC591FA8C9770065BA1B /* KIReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC581FA8C9770065BA1B /* KIReceiverTests.m */; };
 		87C2FC641FA8C9770065BA1B /* KIReceiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC631FA8C9770065BA1B /* KIReceiverUITests.m */; };
+		87C2FC741FA8E1AA0065BA1B /* KINetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2FC731FA8E1AA0065BA1B /* KINetworkManager.m */; };
+		87FA9B941FAA804900169897 /* KINetworkLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA9B931FAA804900169897 /* KINetworkLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +45,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8765F75B1FAA06A500D4D908 /* KISettingsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KISettingsDataSource.h; sourceTree = "<group>"; };
+		8765F75C1FAA06A500D4D908 /* KISettingsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KISettingsDataSource.m; sourceTree = "<group>"; };
+		8765F75F1FAA176200D4D908 /* KILockAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KILockAnimationView.h; sourceTree = "<group>"; };
+		8765F7601FAA176200D4D908 /* KILockAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KILockAnimationView.m; sourceTree = "<group>"; };
+		8765F7621FAA17C600D4D908 /* KILockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KILockView.h; sourceTree = "<group>"; };
+		8765F7631FAA17C600D4D908 /* KILockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KILockView.m; sourceTree = "<group>"; };
+		8765F7651FAA17E100D4D908 /* KIFrameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIFrameView.h; sourceTree = "<group>"; };
+		8765F7661FAA17E100D4D908 /* KIFrameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFrameView.m; sourceTree = "<group>"; };
+		8765F7681FAA385300D4D908 /* KIRegionMonitorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIRegionMonitorManager.h; sourceTree = "<group>"; };
+		8765F7691FAA385300D4D908 /* KIRegionMonitorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIRegionMonitorManager.m; sourceTree = "<group>"; };
+		8765F76C1FAA3D7400D4D908 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8765F76E1FAA3D8100D4D908 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		87C2FC391FA8C9770065BA1B /* KIReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C2FC3C1FA8C9770065BA1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87C2FC3D1FA8C9770065BA1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87C2FC3F1FA8C9770065BA1B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		87C2FC401FA8C9770065BA1B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		87C2FC421FA8C9770065BA1B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		87C2FC431FA8C9770065BA1B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		87C2FC3F1FA8C9770065BA1B /* KIReceiverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIReceiverViewController.h; sourceTree = "<group>"; };
+		87C2FC401FA8C9770065BA1B /* KIReceiverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIReceiverViewController.m; sourceTree = "<group>"; };
+		87C2FC421FA8C9770065BA1B /* KISettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KISettingsViewController.h; sourceTree = "<group>"; };
+		87C2FC431FA8C9770065BA1B /* KISettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KISettingsViewController.m; sourceTree = "<group>"; };
 		87C2FC461FA8C9770065BA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C2FC481FA8C9770065BA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C2FC4B1FA8C9770065BA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +75,10 @@
 		87C2FC5F1FA8C9770065BA1B /* KIReceiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIReceiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C2FC631FA8C9770065BA1B /* KIReceiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIReceiverUITests.m; sourceTree = "<group>"; };
 		87C2FC651FA8C9770065BA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C2FC721FA8E1AA0065BA1B /* KINetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KINetworkManager.h; sourceTree = "<group>"; };
+		87C2FC731FA8E1AA0065BA1B /* KINetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KINetworkManager.m; sourceTree = "<group>"; };
+		87FA9B921FAA804900169897 /* KINetworkLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KINetworkLog.h; sourceTree = "<group>"; };
+		87FA9B931FAA804900169897 /* KINetworkLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KINetworkLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8765F76F1FAA3D8600D4D908 /* CoreBluetooth.framework in Frameworks */,
+				8765F76D1FAA3D7A00D4D908 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8765F75A1FA9FEB400D4D908 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				8765F75B1FAA06A500D4D908 /* KISettingsDataSource.h */,
+				8765F75C1FAA06A500D4D908 /* KISettingsDataSource.m */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		8765F75E1FAA174200D4D908 /* LockAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8765F75F1FAA176200D4D908 /* KILockAnimationView.h */,
+				8765F7601FAA176200D4D908 /* KILockAnimationView.m */,
+				8765F7621FAA17C600D4D908 /* KILockView.h */,
+				8765F7631FAA17C600D4D908 /* KILockView.m */,
+				8765F7651FAA17E100D4D908 /* KIFrameView.h */,
+				8765F7661FAA17E100D4D908 /* KIFrameView.m */,
+			);
+			path = LockAnimation;
+			sourceTree = "<group>";
+		};
+		8765F76B1FAA3D7300D4D908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8765F76E1FAA3D8100D4D908 /* CoreBluetooth.framework */,
+				8765F76C1FAA3D7400D4D908 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87C2FC301FA8C9770065BA1B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +146,7 @@
 				87C2FC571FA8C9770065BA1B /* KIReceiverTests */,
 				87C2FC621FA8C9770065BA1B /* KIReceiverUITests */,
 				87C2FC3A1FA8C9770065BA1B /* Products */,
+				8765F76B1FAA3D7300D4D908 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +163,16 @@
 		87C2FC3B1FA8C9770065BA1B /* KIReceiver */ = {
 			isa = PBXGroup;
 			children = (
+				8765F75E1FAA174200D4D908 /* LockAnimation */,
+				8765F75A1FA9FEB400D4D908 /* DataSources */,
+				87C2FC711FA8E0950065BA1B /* Managers */,
+				87FA9B911FAA803400169897 /* Utilities */,
 				87C2FC3C1FA8C9770065BA1B /* AppDelegate.h */,
 				87C2FC3D1FA8C9770065BA1B /* AppDelegate.m */,
-				87C2FC3F1FA8C9770065BA1B /* FirstViewController.h */,
-				87C2FC401FA8C9770065BA1B /* FirstViewController.m */,
-				87C2FC421FA8C9770065BA1B /* SecondViewController.h */,
-				87C2FC431FA8C9770065BA1B /* SecondViewController.m */,
+				87C2FC3F1FA8C9770065BA1B /* KIReceiverViewController.h */,
+				87C2FC401FA8C9770065BA1B /* KIReceiverViewController.m */,
+				87C2FC421FA8C9770065BA1B /* KISettingsViewController.h */,
+				87C2FC431FA8C9770065BA1B /* KISettingsViewController.m */,
 				87C2FC451FA8C9770065BA1B /* Main.storyboard */,
 				87C2FC481FA8C9770065BA1B /* Assets.xcassets */,
 				87C2FC4A1FA8C9770065BA1B /* LaunchScreen.storyboard */,
@@ -135,6 +198,26 @@
 				87C2FC651FA8C9770065BA1B /* Info.plist */,
 			);
 			path = KIReceiverUITests;
+			sourceTree = "<group>";
+		};
+		87C2FC711FA8E0950065BA1B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				87C2FC721FA8E1AA0065BA1B /* KINetworkManager.h */,
+				87C2FC731FA8E1AA0065BA1B /* KINetworkManager.m */,
+				8765F7681FAA385300D4D908 /* KIRegionMonitorManager.h */,
+				8765F7691FAA385300D4D908 /* KIRegionMonitorManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		87FA9B911FAA803400169897 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				87FA9B921FAA804900169897 /* KINetworkLog.h */,
+				87FA9B931FAA804900169897 /* KINetworkLog.m */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C2FC441FA8C9770065BA1B /* SecondViewController.m in Sources */,
+				87C2FC741FA8E1AA0065BA1B /* KINetworkManager.m in Sources */,
+				87C2FC441FA8C9770065BA1B /* KISettingsViewController.m in Sources */,
+				8765F76A1FAA385300D4D908 /* KIRegionMonitorManager.m in Sources */,
 				87C2FC3E1FA8C9770065BA1B /* AppDelegate.m in Sources */,
+				8765F75D1FAA06A500D4D908 /* KISettingsDataSource.m in Sources */,
+				8765F7611FAA176200D4D908 /* KILockAnimationView.m in Sources */,
 				87C2FC4F1FA8C9770065BA1B /* main.m in Sources */,
-				87C2FC411FA8C9770065BA1B /* FirstViewController.m in Sources */,
+				87C2FC411FA8C9770065BA1B /* KIReceiverViewController.m in Sources */,
+				8765F7671FAA17E100D4D908 /* KIFrameView.m in Sources */,
+				87FA9B941FAA804900169897 /* KINetworkLog.m in Sources */,
+				8765F7641FAA17C600D4D908 /* KILockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +532,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.frangeti.KIReceiver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
