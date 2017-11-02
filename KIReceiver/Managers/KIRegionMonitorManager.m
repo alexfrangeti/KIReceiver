@@ -135,14 +135,14 @@
 
 // Called when region monitoring fails
 - (void)locationManager:(CLLocationManager *)manager monitoringDidFailForRegion:(nullable CLRegion *)region withError:(nonnull NSError *)error {
-    if (scanDelegate) {
+    if (scanDelegate && [scanDelegate respondsToSelector:@selector(onMonitoringError:)]) {
         [scanDelegate onMonitoringError:error];
     }
 }
 
 // Called when ranging beacons fails for a region.
 - (void)locationManager:(CLLocationManager *)manager rangingBeaconsDidFailForRegion:(nonnull CLBeaconRegion *)region withError:(nonnull NSError *)error {
-    if (scanDelegate) {
+    if (scanDelegate && [scanDelegate respondsToSelector:@selector(onRangingError:)]) {
         [scanDelegate onRangingError:error];
     }
 }
